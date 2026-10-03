@@ -1,0 +1,30 @@
+{
+  "name": "ai-drawing-teacher",
+  "version": "1.0.0",
+  "description": "AI Drawing Teacher - Huong dan ve 1:1. Phan tich anh bang AI vision va tao giao trinh ve tung buoc.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "ai",
+    "drawing",
+    "art",
+    "education",
+    "openai",
+    "vision",
+    "tutorial"
+  ],
+  "author": "AI Drawing Teacher",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
